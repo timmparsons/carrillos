@@ -46,7 +46,6 @@ a {
 }
 
 .nav>li>a:hover {
-	background-color: white;
 	color: red;
 }
 
@@ -165,8 +164,18 @@ a {
 	color: black;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     iframe {
         width: 100%;
     }
+
+    .h1-header {
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    }
+
+    .navbar-collapse {
+    	border: none;   
+    }
+
 }
